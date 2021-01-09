@@ -1,0 +1,39 @@
+.home {
+    // position: relative;
+    background-color: $first-color;
+    overflow: hidden;
+}
+
+.home__container {
+    height: calc(100vh - 3rem);
+    row-gap: 5rem;
+}
+
+.home__title {
+    color: $white-color;
+    align-self: flex-end;
+    font-size: 4.25rem;
+    line-height: 0.8;
+
+    span {
+        text-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.home__scroll {
+    align-self: flex-end;
+    padding-bottom: $mb4;
+}
+
+.home__scroll-link {
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    color: $white-color;
+}
+
+.home__img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}

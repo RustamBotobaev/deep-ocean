@@ -1,0 +1,41 @@
+.about__container {
+    justify-content: center;
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.about__img {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: $first-color;
+    overflow: hidden;
+}
+
+.about__subtitle {
+    font-size: $h2-font-size;
+    color: $first-color;
+    margin-bottom: $mb1;
+}
+
+.about__text {
+    margin-bottom: $mb4;
+}
+
+.about_-professional {
+    display: block;
+    margin-bottom: $mb4;
+}
+
+.about__social-icon {
+    font-size: 1.4rem;
+    margin-bottom: 0 $mb1;
+
+    &:hover {
+        color: $first-color;
+    }
+}

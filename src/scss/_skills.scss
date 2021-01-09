@@ -1,0 +1,27 @@
+.skills__container {
+    row-gap: 2rem;
+}
+
+.skills__subtitle {
+    color: $first-color;
+    margin-bottom: $mb3;
+}
+
+.skills__name {
+    display: inline-block;
+    font-size: $small-font-size;
+    margin-right: $mb2;
+    margin-bottom: $mb3;
+    padding: 0.25rem 0.5rem;
+    background-color: $white-color;
+    border-radius: 0.25rem;
+
+    &:hover {
+        background-color: $first-color;
+        color: $white-color;
+    }
+}
+
+.skills__img img {
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,29 @@
+.footer {
+    background-color: $dark-color;
+}
+.footer__container {
+    row-gap: 2rem;
+}
+
+.footer-title {
+    font-size: $normal-font-size;
+    margin-bottom: $mb2;
+    color: $white-color;
+}
+
+.footer__link {
+    padding: 0.25rem 0;
+
+    &:hover {
+        color: $first-color;
+    }
+}
+
+.footer__social {
+    font-size: 1.4rem;
+    margin-right: $mb1;
+
+    &:hover {
+        color: $first-color;
+    }
+}

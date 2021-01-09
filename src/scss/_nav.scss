@@ -1,0 +1,57 @@
+.nav {
+    height: $header-height;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .nav__menu {
+        position: fixed;
+        top: $header-height;
+        right: -100%;
+        width: 80%;
+        height: 100%;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, 0.3);
+        transition: 0.5s;
+        backdrop-filter: blur(10px);
+    }
+}
+
+.nav__item {
+    margin-bottom: $mb4;
+}
+
+.nav__link {
+    position: relative;
+    color: $dark-color;
+
+    &:hover {
+        color: $first-color;
+    }
+}
+
+.nav__logo {
+    color: $white-color;
+}
+
+.nav__toggle {
+    color: $white-color;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.show {
+    right: 0;
+}
+
+.active::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.18rem;
+    background-color: $first-color;
+    left: 0;
+    top: 2rem;
+}
